@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="gr" Background="Cyan">
+        <Button x:Name="Click1" Width="100" Height=" 100" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Click 1" Background="Purple" FontSize="30" Click="Left1" MouseRightButtonDown="Mouse_RightButtonDown1"/>
+        <Button x:Name="Click2" Width="100" Height=" 100" HorizontalAlignment="Center"  VerticalAlignment="Top"  Content="Click 2" Background="Purple" FontSize="30"  Click="Left2" MouseRightButtonDown="Mouse_RightButtonDown2"/>
+        <Button x:Name="Click3" Width="100" Height=" 100" HorizontalAlignment="Right"  VerticalAlignment="Top" Content="Click 3" Background="Purple" FontSize="30" Click="Left3" MouseRightButtonDown="Mouse_RightButtonDown3"/>
+        <Button x:Name="Click4" Width="100" Height=" 100" HorizontalAlignment="Left" VerticalAlignment="Bottom"  Content="Click 4" Background="Purple" FontSize="30" Click="Left4" MouseRightButtonDown="Mouse_RightButtonDown4"/>
+        <Button x:Name="Click5" Width="100" Height=" 100" HorizontalAlignment="Center"  VerticalAlignment="Bottom"  Content="Click 5" Background="Purple" FontSize="30" Click="Left5" MouseRightButtonDown="Mouse_RightButtonDown5"/>
+        <Button x:Name="Click6" Width="100" Height=" 100" HorizontalAlignment="Right"  VerticalAlignment="Bottom"  Content="Click 6" Background="Purple" FontSize="30" Click="Left6" MouseRightButtonDown="Mouse_RightButtonDown6"/>
+    </Grid>
+</Window>
